@@ -1,0 +1,142 @@
+{
+  "Turmas": [
+    {
+      "id": 1001,
+      "Alunos": [
+        {
+          "id": 1,
+          "Nome": "Aline",
+          "Dados": [
+            {
+              "ano": 2023,
+              "turma": 1001,
+              "bimestres": [
+                {
+                  "id": 1,
+                  "nota": [
+                    {"Nome": "Atividade-1",
+                    "Valor": 10,
+                    "notaMaxima": 10},
+                    {"Nome": "Atividade-2",
+                    "Valor": 8,
+                    "notaMaxima": 10},
+                    {"Nome": "Atividade-3",
+                    "Valor": 2,
+                    "notaMaxima": 5}
+                  ],
+                  "notaBimestral":25,
+                  "recuperacao": false,
+                  "notaRecuperacao": 0,
+                  "presencas": [
+                    {
+                      "date": "01/07/2023",
+                      "Tema": "",
+                      "status": false
+                    },
+                    {
+                      "date": "06/07/2023",
+                      "Tema": "",
+                      "status": true
+                    },
+                    {
+                      "date": "04/07/2023",
+                      "Tema": "",
+                      "status": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "Nome": "Cleosmira",
+          "Dados": [
+            {
+              "ano": 2023,
+              "turma": 1001,
+              "bimestres": [
+                {
+                  "id": 1,
+                  "nota": [
+                    {"Nome": "Atividade-1",
+                    "Valor": 10,
+                    "notaMaxima": 10},
+                    {"Nome": "Atividade-2",
+                    "Valor": 8,
+                    "notaMaxima": 10},
+                    {"Nome": "Atividade-3",
+                    "Valor": 2,
+                    "notaMaxima": 5}
+                  ],
+                  "notaBimestral":25,
+                  "recuperacao": true,
+                  "notaRecuperacao": 15,
+                  "presencas": [
+                    {
+                      "date": "01/07/2023",
+                      "Tema": "",
+                      "status": false
+                    },
+                    {
+                      "date": "06/07/2023",
+                      "Tema": "",
+                      "status": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "Nome": "Amanda",
+          "Dados": [
+            {
+              "ano": 2023,
+              "turma": 1001,
+              "bimestres": [
+                {
+                  "id": 1,
+                  "nota": [
+                    {"Nome": "Atividade-1",
+                    "Valor": 10,
+                    "notaMaxima": 10},
+                    {"Nome": "Atividade-2",
+                    "Valor": 8,
+                    "notaMaxima": 10},
+                    {"Nome": "Atividade-3",
+                    "Valor": 2,
+                    "notaMaxima": 5}
+                  ],
+                  "notaBimestral":25,
+                  "recuperacao": false,
+                  "notaRecuperacao": 0,
+                  "presencas": [
+                    {
+                      "date": "01/07/2023",
+                      "Tema": "",
+                      "status": false
+                    },
+                    {
+                      "date": "06/07/2023",
+                      "Tema": "",
+                      "status": true
+                    },
+                    {
+                      "date": "04/07/2023",
+                      "Tema": "",
+                      "status": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
