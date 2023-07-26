@@ -3,8 +3,8 @@
     <headerSearch
     @database="(data) => database = data"/>
 
-    <article>
-      <div v-for="(aluno, index) in this.alunos" :key="index">
+    <article v-if="databaseExist">
+      <div v-for="(aluno, index) in this.database.Alunos" :key="index">
         <h1>{{ aluno.Nome }}</h1>
         <h2>{{ asa }}</h2>
       </div>
@@ -23,11 +23,14 @@ export default {
   computed: {
     ...mapState([
 
-    ])
+    ]),
+    databaseExist() {
+      return this.database?.id
+    }
   },
-  data(){
+  data() {
     return {
-      alunos: [...this.database.Alunos]
+      database: {Alunos:[]}
     }
   },
   methods: {
