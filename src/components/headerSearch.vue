@@ -65,6 +65,7 @@ export default {
             const { data } = await axios.get(`http://localhost:3000/Turmas/${this.filterList.Class}`)
             console.log(data)
             this.$emit('database', data)
+            this.$emit('load')
         }
     }
 }

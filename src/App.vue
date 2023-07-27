@@ -63,8 +63,11 @@
     height: 30px;
     font-size: large;
   }
-  
-
 } 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 </style>
